@@ -6,23 +6,28 @@ In the project directory, you can run:
 
 ### `Live Project`
 
+[here](https://nasa-api-consume.herokuapp.com/)
+
 ### `Project features`
 
 I should Save pictures of the day data into local storage.
 I should display the picture of the day,its title and description based on the date selected from a date picker.
 
-### `Technologies
+## Technologies
 
-React
+- React
 
-### `Prerequisites
+## Prerequisites
 
-NPM
-NODE
+- NPM
+- NODE
 
 ### `GET STARTED
 
-clone the repository here [https://github.com/nshutijonathan/Nasa-api-consumer]
-cd Nasa-api-consumer
-npm install
-npm start
+[clone the repository here](https://github.com/nshutijonathan/Nasa-api-consumer)
+
+- cd Nasa-api-consumer
+
+- npm install
+
+- npm start
