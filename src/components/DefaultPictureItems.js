@@ -13,9 +13,7 @@ const DefaultPictureItems = ({ picture, isLoading, isPicAvailable }) => {
   ) : (
     <div class="card mb-3 border-0">
       <div class="card-body ">
-        <a class="text-justify" href="www.google.com">
-          NASA API CONSUMER
-        </a>
+        <h1 class="text-justify">NASA API CONSUMER</h1>
         <button href="#" class="btn btn-primary" style={{ float: "right" }}>
           MY FAVORITES
         </button>
