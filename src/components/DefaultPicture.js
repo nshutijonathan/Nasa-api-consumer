@@ -8,10 +8,8 @@ const DefaultPicture = () => {
   useEffect(() => {
     const fetchPicture = async () => {
       const result = await axios(
-        `https://api.nasa.gov/planetary/apod?api_key=ulRtd83CPfEuG8UWSRdewGNgdfEJ9SEXnpd4d8V6&&date=2020-07-28`
+        `https://api.nasa.gov/planetary/apod?api_key=ulRtd83CPfEuG8UWSRdewGNgdfEJ9SEXnpd4d8V6`
       );
-      let a = result.data;
-      console.log("result", result.data);
       setPicture(result.data);
       setIsloading(false);
       if (result.data) {
